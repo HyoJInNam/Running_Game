@@ -1,0 +1,46 @@
+{
+  "target": [
+    {
+      "level": 0,
+      "floor1_max": 50,
+      "floor2_max": 40,
+      "trap_max": 10,
+      "hole_max": 0
+    },
+    {
+      "level": 1,
+      "floor1_max": 50,
+      "floor2_max": 30,
+      "trap_max": 15,
+      "hole_max": 5
+    },
+    {
+      "level": 2,
+      "floor1_max": 40,
+      "floor2_max": 35,
+      "trap_max": 15,
+      "hole_max": 10
+    },
+    {
+      "level": 3,
+      "floor1_max": 35,
+      "floor2_max": 35,
+      "trap_max": 20,
+      "hole_max": 10
+    },
+    {
+      "level": 4,
+      "floor1_max": 30,
+      "floor2_max": 25,
+      "trap_max": 25,
+      "hole_max": 15
+    },
+    {
+      "level": 5,
+      "floor1_max": 30,
+      "floor2_max": 20,
+      "trap_max": 30,
+      "hole_max": 15
+    }
+  ]
+}

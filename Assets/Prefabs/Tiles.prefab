@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3685189082540311332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3685189082540311333}
+  - component: {fileID: 3685189082540311339}
+  - component: {fileID: 3685189082540311338}
+  - component: {fileID: 3685189082540311336}
+  m_Layer: 0
+  m_Name: Tiles
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3685189082540311333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3685189082540311332}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3685189082540311339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3685189082540311332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97cf218f0f390c44fb2428d2cd68534e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 1219471545100730, guid: 1b8fbee291cdc1046a281cb2b3b51bf7, type: 3}
+  - {fileID: 1487688346712832, guid: 41b018f12ce178147b4607881dbcdcea, type: 3}
+  - {fileID: 0}
+  objects:
+  - {fileID: 5267248656273670982, guid: c4ad8227aa53a2147862ebfe370e9b4a, type: 3}
+  - {fileID: 2547715907514842072, guid: 8cd8dc006c2b29746824f4313e51b18e, type: 3}
+  - {fileID: 1779254397466754, guid: eb3f51c9e4e6faa45b78a8c2a6e0c16d, type: 3}
+--- !u!114 &3685189082540311338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3685189082540311332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61054e753c070d4429e93895965fd195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsMakingTile: 0
+  speed: 0
+--- !u!114 &3685189082540311336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3685189082540311332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21939ab4985b9524a9e1fdf4e73d4b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiledata:
+    level: 0
+    floor1_max: 0
+    floor2_max: 0
+    trap_max: 0
+    hole_max: 0
+  latelyPos: {x: 0, y: 0, z: 0}
+  progressSilder: {fileID: 0}

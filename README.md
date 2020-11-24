@@ -3,8 +3,6 @@
 :blush: **Youtube** :blush: *https://youtu.be/ftZlgUp4yFk*  
 
 ### Game Demo
-###### ***▽ Click on the text to view the video.***  
-[![Click Game Demo Video](https://img.youtube.com/vi/ftZlgUp4yFk/maxresdefault.jpg)](https://youtu.be/ftZlgUp4yFk)  
 <img src = "./ReadMe/1.png" width="30%"><img src = "./ReadMe/2.png" width="30%">  <img src = "./ReadMe/3.png" width="30%">  
 
 ```  
